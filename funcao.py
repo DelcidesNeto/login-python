@@ -2,8 +2,8 @@ def verificacao(email):
     import mysql.connector as mysql
     banco = mysql.connect(host='aws-sa-east-1.connect.psdb.cloud',
                           database='users',
-                          user='k6as35kri5xcmlo9ops4',
-                          password='pscale_pw_iyoSaFp3J1nda5qcpayYSkqLliNVsOSwNWR7YSZla5b',
+                          user='fnvjf6dbtob5suczzq4q',
+                          password='pscale_pw_C9fszylLP7izNQAU7XOc7Y9lR8fGtARY1pRbFqN8lSL',
                           ssl_verify_identity=True,
                           ssl_ca='cacert-2023-01-10.pem',
                           use_pure=True)
@@ -23,8 +23,8 @@ def adicionar_usuario(nome_usuario, email, senha):
     import mysql.connector as mysql
     banco = mysql.connect(host='aws-sa-east-1.connect.psdb.cloud',
                           database='users',
-                          user='k6as35kri5xcmlo9ops4',
-                          password='pscale_pw_iyoSaFp3J1nda5qcpayYSkqLliNVsOSwNWR7YSZla5b',
+                          user='fnvjf6dbtob5suczzq4q',
+                          password='pscale_pw_C9fszylLP7izNQAU7XOc7Y9lR8fGtARY1pRbFqN8lSL',
                           ssl_verify_identity=True,
                           ssl_ca='cacert-2023-01-10.pem',
                           use_pure=True)
@@ -50,8 +50,8 @@ def login(email=''):
     import mysql.connector as mysql
     banco = mysql.connect(host='aws-sa-east-1.connect.psdb.cloud',
                           database='users',
-                          user='k6as35kri5xcmlo9ops4',
-                          password='pscale_pw_iyoSaFp3J1nda5qcpayYSkqLliNVsOSwNWR7YSZla5b',
+                          user='fnvjf6dbtob5suczzq4q',
+                          password='pscale_pw_C9fszylLP7izNQAU7XOc7Y9lR8fGtARY1pRbFqN8lSL',
                           ssl_verify_identity=True,
                           ssl_ca='cacert-2023-01-10.pem',
                           use_pure=True)
